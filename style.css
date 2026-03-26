@@ -241,3 +241,121 @@ form textarea {
             mask-composite: exclude;
     opacity: 0.3;
 }
+
+/* GLOBAL */
+body {
+    background: #0a0a0f;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* NAME (Rahul Bhagali) */
+header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* NAV LINKS */
+nav a {
+    color: #aaa;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00f7ff;
+}
+
+/* HERO TITLE */
+.hero h2 {
+    font-size: 40px;
+    background: linear-gradient(90deg, #00f7ff, #ff00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* TYPING TEXT */
+#typing {
+    color: #00f7ff;
+    font-weight: bold;
+}
+
+/* PARAGRAPH */
+.hero p {
+    color: #ccc;
+}
+
+/* SKILLS BADGES */
+.skills span,
+.credentials span {
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: #00f7ff;
+    transition: 0.3s;
+}
+
+.skills span:hover,
+.credentials span:hover {
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* SECTION HEADINGS */
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* PROJECT TITLES */
+.project-card h3 {
+    color: #fff;
+}
+
+.project-card p {
+    color: #bbb;
+}
+
+/* BUTTONS */
+.btn.primary {
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    color: white;
+    border: none;
+}
+
+.btn.primary:hover {
+    box-shadow: 0 0 15px #fc00ff;
+}
+
+.btn.outline {
+    border: 1px solid #00f7ff;
+    color: #00f7ff;
+}
+
+.btn.outline:hover {
+    background: #00f7ff;
+    color: #000;
+}
+
+/* CONTACT FORM TEXT */
+input, textarea {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: white;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #888;
+}
